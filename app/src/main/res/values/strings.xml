@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Basic</string>
+    <string name="buttonText">Button</string>
+    <string name="toast_button">Toast</string>
+    <string name="edit_text_button">Edit Text</string>
+    <string name="text_view_button">Text View</string>
+    <string name="snack_bar_button">Snack Bar</string>
+    <string name="progress_button">Progress</string>
+    <string name="alert_button">Alert</string>
+    <string name="radio_button">Radio</string>
+    <string name="check_button">Check</string>
+    <string name="listView_button">ListView</string>
+    <string name="webView_button">webView</string>
+
+    <string-array name="countryName">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>America</item>
+    </string-array>
+
+</resources>

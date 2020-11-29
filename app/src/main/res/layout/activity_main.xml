@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/constraintLayoutId"
+    >
+
+    <GridLayout
+        android:id="@+id/myGridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394"
+        >
+
+
+        <Button
+            android:id="@+id/buttonTutorialId"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:text="@string/buttonText"
+            />
+
+        <Button
+            android:id="@+id/toastButtonId"
+            android:layout_width="100dp"
+            android:layout_height="101dp"
+            android:layout_margin="5dp"
+            android:text="@string/toast_button"
+            />
+
+        <Button
+            android:id="@+id/editTextButtonId"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:text="@string/edit_text_button"
+            />
+
+        <Button
+            android:id="@+id/textViewButtonId"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:text="Text View"
+            />
+
+        <Button
+            android:id="@+id/snackBarButtonId"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:text="@string/snack_bar_button"
+            />
+
+        <Button
+            android:id="@+id/progressButtonId"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:text="@string/progress_button"
+            />
+
+        <Button
+            android:id="@+id/alertButtonId"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:text="@string/alert_button"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/radio_button"
+            />
+
+        <ImageView
+            android:id="@+id/imageViewId"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sixpack"
+            />
+
+        <CheckBox
+            android:id="@+id/checkboxId"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:text="@string/check_button"
+            />
+        <Switch
+            android:id="@+id/mySwitchId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+        <Spinner
+            android:id="@+id/mySpinnerId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/listViewButtonId"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:text="@string/listView_button"
+            />
+
+        <Button
+            android:id="@+id/webViewButtonId"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:text="@string/webView_button"
+            />
+
+    </GridLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
